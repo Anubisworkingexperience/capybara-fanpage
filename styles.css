@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
 /* font-family: 'Roboto', sans-serif; */
 body {
     margin: 0;
@@ -64,7 +66,7 @@ h1 {
     border-radius: 25px;
 }
 
-.sign-up {
+.sign-up, .pre-footer-signup {
     background-color: #3882F6;
     color: white;
     border-radius: 7px;
@@ -97,4 +99,59 @@ h2 {
     gap: 35px;
     font-size: 24px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* quote styles */
+
+.quote {
+    background-color:lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote-text {
+    font-size: 24px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* pre-footer styles */
+
+.pre-footer {
+    margin: 80px 400px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pre-footer-signup-text {
+    font-size: 20px;
+}
+
+.pre-footer-signup{
+    border: 2px solid whitesmoke;
+} 
+
+/* footer styles */
+
+.footer {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
